@@ -7,6 +7,8 @@ The advantage of Docker is that it keeps the Flask based standalone web viewer i
 You will still have to of course pip install `ocp_vscode` and `build123d` into the venvs where you work,
 but those packages are pure Python, without dependencies like xrender or libgl.
 
+The automated github actions build builds for linux/arm64 and linux/amd64 both.
+
 ## Starting the docker container and opening the viewer
 
 First of all, you have to run the container that provides the web server:

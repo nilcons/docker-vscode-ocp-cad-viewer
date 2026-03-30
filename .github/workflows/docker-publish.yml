@@ -50,5 +50,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          # Currently cadquery-ocp doesn't build for manylinux/arm64, only for macosx/arm64
-          platforms: linux/amd64 # ,linux/arm64
+          platforms: linux/amd64,linux/arm64
